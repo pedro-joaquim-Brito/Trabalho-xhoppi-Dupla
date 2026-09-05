@@ -116,10 +116,18 @@ img.logo{
     margin: 0;
 }
 .rodape-coluna ul li{
-    margin-bottom: 1.2vh;
+   margin-bottom: 1.2vh;
     font-size: 0.85rem;
-    color: #333;
+    color: rgb(92, 89, 89);
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.8vh;
+}
+
+.rodape-coluna ul li img{
+    height: 2vh;
+    width: auto;
 }
 
 .rodape-coluna img{
