@@ -42,7 +42,7 @@ img.logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 59vh;
+    height: 65vh;
     width: 100%;
     background-color: rgb(255, 94, 0);
 }
@@ -50,7 +50,8 @@ img.logo{
 .forms{
     display: flex;
     flex-direction: column;
-    width: 41%;
+    width: 34%;
+    height: 94%;
     padding: 4vh;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
