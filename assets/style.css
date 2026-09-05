@@ -77,9 +77,8 @@ img.logo{
     font-weight: bold;
     cursor: pointer;
     margin-bottom: 1.5vh;
-    border-color: solid rgb(0, 0, 0) 1px;
+    border: none;
 }
-
 .links-linha{
     display: flex;
     justify-content: space-between;
@@ -154,4 +153,60 @@ img.logo{
     border-top: 1px solid #ddd;
     font-size: 0.85rem;
     color: #333;
+}
+
+.divisor{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(156, 154, 154, 0.856);
+    margin-bottom: 1.5vh;
+}
+
+.divisor::before, .divisor::after{
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid rgb(211, 207, 207);
+}
+
+.divisor p{
+    padding: 0 1vh;
+    font-size: 0.85em;
+}
+
+.login-social{
+    display: flex;
+    grid-area: 1vh;
+    margin-bottom: 1.5vh;
+}
+.social{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vh;
+    padding: 1vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.social img{
+    height: 1.8vh;
+    width: auto;
+}
+
+.cadastro-texto{
+    text-align: center;
+    color: rgba(148, 147, 147, 0.767) ;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.cadastro-texto a{
+    color: rgba(255, 102, 0, 0.925);
+    text-decoration: none;
+    font-weight: bold;
 }
