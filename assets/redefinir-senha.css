@@ -1,24 +1,22 @@
-*{
-    box-sizing: border-box;
-}
-
 body{
-    margin:0 0 0 0px;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 img.logo{
     height: 11vh;
     width: auto;
 }
 
 
-.conteudo-inicial h2{
+
+.conteudo h2{
     flex-direction: row;
-    color:rgba(255, 38, 0, 0.884)
+    color:rgba(255, 60, 0)
 }
 
-.barra-inicial{
+.barra{
     align-items: center;
     padding-right: 5%;
     padding-left: 5%;
@@ -28,67 +26,69 @@ img.logo{
     height: 10vh;
 }
 
-.barra-inicial h3{
+.barra h3{
     padding: 4vh;
 }
 
-.barra-inicial p{
-    color:rgba(255, 38, 0, 0.884);
+.barra p{
+    color:rgba(255, 60, 0);
     padding-left:  65%;
     align-items: end;
 }
 
-.fundo{
+.preenchimento{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 65vh;
     width: 100%;
-    background-color: rgba(255, 38, 0, 0.884);
+    background-color: rgb(255, 255, 255);
 }
 
-.forms{
+.form{
     display: flex;
     flex-direction: column;
-    width: 34%;
-    height: 94%;
+    width: 37%;
+    height: 49%;
     padding: 4vh;
     background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 12px rgba(65, 64, 64, 0.25);
+    border: 1px solid rgba(65, 64, 64, 0.15);
     border-radius: 8px;
 }
 
-.forms h2{
-    text-align: center;
-    margin-bottom: 2vh;
+.form h2{
+    justify-content: center;
+    padding-left: 35%;
 }
 
-.forms input{
+.form input{
     padding: 1.5vh;
     margin-bottom: 1.5vh;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
+    margin-bottom: 8%;
 }
 
-.btn-entrar{
+.btn-enviar{
     padding: 1.5vh;
-    background-color: rgba(255, 38, 0, 0.884);
+    background-color: rgba(255, 60, 0);
     color: white;
-    border-radius: 8px;
+    border-radius: 1px;
     font-weight: bold;
     cursor: pointer;
     margin-bottom: 1.5vh;
-    border: none;
-}
-.links-linha{
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.85rem;
+    border: 2px solid rgba(0, 0, 0, 0.555);
+    transition: background-color 0.3s ease;
 }
 
-.links-linha a{
-    color: rgba(4, 0, 255, 0.979);
-    text-decoration: none;
+.btn-enviar:hover{
+    transition: 2.0s;
+    background-color: rgb(255, 0, 0);
+}
+.form img{
+    width: 6%;
 }
 
 .rodape{
@@ -162,60 +162,4 @@ img.logo{
     border-top: 1px solid #ddd;
     font-size: 0.85rem;
     color: #333;
-}
-
-.divisor{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: rgba(156, 154, 154, 0.856);
-    margin-bottom: 1.5vh;
-}
-
-.divisor::before, .divisor::after{
-    content: "";
-    flex: 1;
-    border-bottom: 1px solid rgb(211, 207, 207);
-}
-
-.divisor p{
-    padding: 0 1vh;
-    font-size: 0.85em;
-}
-
-.login-social{
-    display: flex;
-    grid-area: 1vh;
-    margin-bottom: 1.5vh;
-}
-.social{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5vh;
-    padding: 1vh;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background: white;
-    cursor: pointer;
-    font-size: 0.85rem;
-}
-
-.social img{
-    height: 1.8vh;
-    width: auto;
-}
-
-.cadastro-texto{
-    text-align: center;
-    color: rgba(119, 117, 117, 0.932) ;
-    font-size: 0.9rem;
-    margin: 0;
-}
-
-.cadastro-texto a{
-    color: rgba(255, 38, 0, 0.884);
-    text-decoration: none;
-    font-weight: bold;
 }
