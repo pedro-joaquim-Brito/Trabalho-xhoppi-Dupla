@@ -1,12 +1,12 @@
 *{
     box-sizing: border-box;
+
 }
 
 body{
     margin:0 0 0 0px;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 img.logo{
     height: 11vh;
     width: auto;
@@ -70,7 +70,7 @@ img.logo{
     font-size: 1rem;
 }
 
-.btn-entrar{
+.btn-entrar {
     padding: 1.5vh;
     background-color: rgba(255, 38, 0, 0.884);
     color: white;
@@ -80,6 +80,16 @@ img.logo{
     margin-bottom: 1.5vh;
     border: none;
 }
+
+.btn-entrar a{
+     color: inherit;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
 .links-linha{
     display: flex;
     justify-content: space-between;
