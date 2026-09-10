@@ -32,7 +32,7 @@ body{
 
 .logo h2{
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 20px;
 }
 .menu{
     display: flex;
@@ -51,7 +51,7 @@ body{
     list-style: none;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 .menu ul li a{
     text-decoration: none;
@@ -62,91 +62,43 @@ body{
     color: rgba(255, 102, 0, 0.932);
 }
 
-.container-carousel{
-    max-width: 1150px;
-    margin: 30px auto 0 auto;
-    padding: 0 15px;
-}
 
-.banner-carousel{
+
+
+main{
     width: 100%;
-    border-radius: 6px;
-    overflow: hidden;
+    background-color: #ebebeb;
 }
-
-.banner-carousel .carousel-inner{
-    aspect-ratio: 1006 / 210; 
-}
-
-.banner-carousel .carousel-item{
-    height: 100%;
-}
-
-.banner-carousel .carousel-item img{
-    max-width: 100%;
-    max-height: 100%;
-}
-.anuncio{
+section.cadastro{
     width: 60%;
-    margin: auto;
-    margin-top: 25px;
-    display: flex;
-    align-items: center;
-    height: 200px;
-    justify-content: center;
-}
-.anuncio img{
-    width: 90%;
-    height: 130px;
-    max-width: 100%;
-    max-height: 100%;
-}
-.descobertas{
-    width: 80%;
+    height: 600px;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: darkgoldenrod;
-    border-bottom: 2px darkgoldenrod solid;
 }
-section.camisas{
-    margin-bottom: 50px!important;
-    width: 75%;
-    display: flex;
-    margin: auto;
-   justify-content: center;
-    flex-wrap: wrap;
-}
-div.cartaocamisa{
-    width: 275px;
-    height: 350px;
-    padding: 5px;
-    box-shadow: 0px 0px 5px 0px rgb(117, 117, 117);
+section form{
+    background-color: white;
+    height: 80%;
+    width: 70%;
     border-radius: 5px;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
-    margin-top: 50px;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section form input{
+    height: 35px;
+    width: 60%;
+    
+}
 
-}
-.cartaocamisa figure img{
-    max-width: 100%;
-    max-height: 100%;
-}
-.cartaocamisa div{
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-}
-.cartaocamisa div p{
-   color: rgba(255, 102, 0, 0.932);
-}
-.cartaocamisa div p.disponivel{
-    color: rgba(88, 88, 88, 0.932);
- }
- 
+
+
+
+
+
 .rodape{
     display: flex;
     justify-content: space-between;

@@ -18,12 +18,11 @@ img.logo{
 
 .barra{
     align-items: center;
-    padding-right: 5%;
-    padding-left: 5%;
+    
     display: flex;
     background-color: rgb(248, 247, 247);
     width: 100%;
-    height: 10vh;
+    height: 100px;
 }
 
 .barra h3{
@@ -96,7 +95,6 @@ img.logo{
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    padding: 4vh 5vh;
     background-color: rgba(245, 245, 245, 0.767);
     box-sizing: border-box;
 }
