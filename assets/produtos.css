@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
 }
 
@@ -34,15 +34,15 @@ body{
     color: rgb(255, 255, 255);
     font-size: 30px;
 }
-
-.menu {
+.menu{
     display: flex;
-    width: 100%;
-    height: 50px;
-    background-color: rgba(255, 102, 0, 0.932);
+      width: 100%;
+      height: 50px;
+      background-color:rgba(255, 102, 0, 0.932);
+      
 }
 
-.menu ul {
+.menu ul{
     color: rgb(255, 255, 255);
     height: 100%;
     margin: auto;
@@ -51,84 +51,39 @@ body{
     list-style: none;
     justify-content: space-evenly;
     align-items: center;
+    
 }
-
-.menu ul li a {
+.menu ul li a{
     text-decoration: none;
     color: white;
-    font-size: 20px!important;
+    font-size: 20px;
 }
-
-.menu ul li {
+.menu ul li{
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.menu ul li:hover {
+.menu ul li:hover{
     transition: 0.6s;
     background-color: white;
 }
 
-.menu ul li:hover a {
+.menu ul li:hover a{
     color: rgba(255, 102, 0, 0.932);
 }
-
-.container-carousel {
-    max-width: 1150px;
-    margin: 30px auto 0 auto;
-    padding: 0 15px;
-}
-
-.banner-carousel {
-    width: 100%;
-    border-radius: 6px;
-    overflow: hidden;
-}
-
-.banner-carousel .carousel-inner {
-    aspect-ratio: 1006 / 210;
-}
-
-.banner-carousel .carousel-item {
-    height: 100%;
-}
-
-.banner-carousel .carousel-item img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.anuncio {
-    width: 60%;
-    margin: auto;
-    margin-top: 25px;
-    display: flex;
-    align-items: center;
-    height: 200px;
-    justify-content: center;
-}
-
-.anuncio img {
-    width: 90%;
-    height: 130px;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.descobertas {
+.descobertas{
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgba(255, 102, 0, 0.932);
-    border-bottom: 2px rgba(255, 68, 0, 0.89) solid;
+
     margin-bottom: 3.5%;
 }
-
-section.camisas {
+section.camisas{
     width: 67%;
     margin: auto;
     display: grid;
@@ -136,39 +91,43 @@ section.camisas {
     gap: 30px;
     margin-bottom: 3.5%;
 }
-
-div.cartaocamisa {
-    width: 100%;
-    margin-right: 0;
-    border: 1.8px solid transparent;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+div.cartaocamisa{
+    width: 100%; 
+    margin-right: 0; 
+    border: 1.8px solid transparent; 
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.cartaocamisa:hover {
+.cartaocamisa:hover{
     transition: 0.6s;
-    border-color: rgba(255, 68, 0, 0.89);
+    border-color:  rgba(255, 68, 0, 0.89);
+
 }
 
-.cartaocamisa figure img {
+.cartaocamisa figure img{
     max-width: 100%;
     max-height: 100%;
 }
-
-.cartaocamisa div {
+.cartaocamisa div.preco{
     display: flex;
     justify-content: space-between;
     align-items: end;
 }
-
-.cartaocamisa div p {
-    color: rgba(255, 102, 0, 0.932);
+.cartaocamisa div p{
+   color: rgba(255, 102, 0, 0.932);
 }
-
-.cartaocamisa div p.disponivel {
+.cartaocamisa div p.disponivel{
     color: rgba(88, 88, 88, 0.932);
-}
-
-.rodape {
+ }
+.cartaocamisa div.info{
+    align-items: top;
+    justify-content: start;
+    display: flex;
+ }
+ .cartaocamisa div.info p{
+    margin-left: 5px;
+ }
+.rodape{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -177,27 +136,23 @@ div.cartaocamisa {
     background-color: rgba(245, 245, 245, 0.767);
     box-sizing: border-box;
 }
-
-.rodape-coluna {
+.rodape-coluna{
     display: flex;
     flex-direction: column;
     min-width: 15vh;
 }
-
-.rodape-coluna h1 {
+.rodape-coluna h1{
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 1.5vh;
 }
-
-.rodape-coluna ul {
+.rodape-coluna ul{
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
-.rodape-coluna ul li {
-    margin-bottom: 1.2vh;
+.rodape-coluna ul li{
+   margin-bottom: 1.2vh;
     font-size: 0.85rem;
     color: rgb(92, 89, 89);
     cursor: pointer;
@@ -206,41 +161,36 @@ div.cartaocamisa {
     gap: 0.8vh;
 }
 
-.rodape-coluna ul li img {
+.rodape-coluna ul li img{
     height: 2vh;
     width: auto;
 }
 
-.rodape-coluna img {
+.rodape-coluna img{
     width: 6vh;
     height: auto;
 }
-
-.pagamento-icones {
+.pagamento-icones{
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 2vh 3vh;
     align-items: center;
 }
-
-.pagamento-icones img {
+.pagamento-icones img{
     height: 5vh;
     width: auto;
 }
-
-.qrcode {
+.qrcode{
     width: 9vh;
     height: 9vh;
     margin-bottom: 1.5vh;
 }
-
-.loja-app {
+.loja-app{
     height: 3.5vh;
     width: auto;
     margin-bottom: 1vh;
 }
-
-.rodape-final {
+.rodape-final{
     width: 100%;
     padding: 2vh 0;
     text-align: center;
@@ -250,7 +200,7 @@ div.cartaocamisa {
     color: #333;
 }
 
-.divisor {
+.divisor{
     display: flex;
     align-items: center;
     text-align: center;
@@ -258,25 +208,23 @@ div.cartaocamisa {
     margin-bottom: 1.5vh;
 }
 
-.divisor::before,
-.divisor::after {
+.divisor::before, .divisor::after{
     content: "";
     flex: 1;
     border-bottom: 1px solid rgb(211, 207, 207);
 }
 
-.divisor p {
+.divisor p{
     padding: 0 1vh;
     font-size: 0.85em;
 }
 
-.login-social {
+.login-social{
     display: flex;
     grid-area: 1vh;
     margin-bottom: 1.5vh;
 }
-
-.social {
+.social{
     flex: 1;
     display: flex;
     align-items: center;
@@ -290,19 +238,19 @@ div.cartaocamisa {
     font-size: 0.85rem;
 }
 
-.social img {
+.social img{
     height: 1.8vh;
     width: auto;
 }
 
-.cadastro-texto {
+.cadastro-texto{
     text-align: center;
-    color: rgba(119, 117, 117, 0.932);
+    color: rgba(119, 117, 117, 0.932) ;
     font-size: 0.9rem;
     margin: 0;
 }
 
-.cadastro-texto a {
+.cadastro-texto a{
     color: rgba(255, 38, 0, 0.884);
     text-decoration: none;
     font-weight: bold;
