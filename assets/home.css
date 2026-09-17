@@ -6,7 +6,10 @@
     text-decoration: none;
     color: rgba(255,255,255);
 }
-
+a.linkproduto{
+    text-decoration: none;
+    color: black;
+}
 body{
     margin: 0;
     padding: 0;

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="" href="../assets/ver-produto.css">
+    <script type="text/javascript" src="../assets/scripts.js"></script>
+    <title>Xhopee</title>
+</head>
+<body>
+    
+    <header>
+        <img src="../assets/img/logo-xhoppi.png">
+        <h1>Xhopii</h1>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="cadastro-cliente.html">Cadastro Cliente</a></li>
+            <li><a href="cadastro-funcionario.html">Cadastro Funcionario</a></li>
+            <li><a href="cadastro-produto.html">Cadastro Produto</a></li>
+            <li><a href="cadastro-loja.html">Cadastro Loja</a></li>
+            <li><a href="cadastro-cupom.html">Cadastro Cupom</a></li>
+            <li><a href="ver-cliente.html">Ver Clientes</a></li>
+            <li><a href="ver-funcionario.html">Ver Funcionários</a></li>
+            <li><a href="ver-cupom.html">Ver Cupons</a></li>
+            <li><a href="ver-loja.html">Ver Lojas</a></li>
+            <li><a href="produtos.html">Ver Produtos</a></li>
+        </ul>
+    </nav>
+    <div class="produto-imagem">
+        <div class="produto-miniatura">
+            <img src="../assets/img/produto1.png" onclick="selecionarImgProduto(this)">
+            <img src="../assets/img/produto2.png" onclick="selecionarImgProduto(this)">
+            <img src="../assets/img/produto3.png" onclick="selecionarImgProduto(this)">
+            <img src="../assets/img/produto4.png" onclick="selecionarImgProduto(this)">
+            <img src="../assets/img/produto5.png" onclick="selecionarImgProduto(this)">
+        </div>
+        <div class="produto-principal">
+            <img id="imgPrincipal" src="../assets/img/produto1.png">
+        </div>
+    </div>
+
+    <div class="produto-detalhes">
+        <h1>Camisa Desenvolvedor Front-End CSS</h1>
+        <h2 id="precoProduto">R$56,90</h2>
+        <p id="qtdDisponivel" >171 peças dísponíveis</p>
+        <p>Modelos:</p>
+        <button class="botao" id="btnModeloPreto" onclick="mudarPreco(this)">Preto</button>
+        <button class="botao" id="btnModeloAzul" onclick="mudarPreco(this)">Azul</button>
+        <button class="botao" id="btnModeloVerde" onclick="mudarPreco(this)">Verde</button>
+        <button class="botao" id="btnModeloCinza" onclick="mudarPreco(this)">Cinza</button>
+        <button class="botao" id="btnModeloRosa" onclick="mudarPreco(this)">Rosa</button>
+
+        <p>Tamanhos:</p>
+        <button class="botao" id="btnTamanhoP">P</button>
+        <button class="botao" id="btnTamanhoM">M</button>
+        <button class="botao" id="btnTamanhoG">G</button>
+        <button class="botao" id="btnTamanhoGG">GG</button>
+        <p id="tamanhoSelecionado" >Tamanho Selecionado: P</p>
+        <button id="botaoComprar">Comprar Agora</button>
+    </div>
+</body>
+</html>
